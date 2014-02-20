@@ -1,0 +1,15 @@
+{
+  "name": "timoxley-element-selector",
+  "description": "Select DOM elements with the mouse.",
+  "version": "0.0.14",
+  "keywords": [],
+  "styles": [
+    "element-selector.css"
+  ],
+  "dependencies": {
+    "component-classes": "git://github.com/npmcomponent/component-classes.git",
+    "component-matches-selector": "git://github.com/npmcomponent/component-matches-selector.git",
+    "component-emitter": "git://github.com/npmcomponent/component-emitter.git",
+    "visionmedia-debug": "git://github.com/npmcomponent/visionmedia-debug.git"
+  }
+}

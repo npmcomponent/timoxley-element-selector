@@ -1,10 +1,10 @@
 "use strict"
 
-var debug = require('debug')('element-selector')
+var debug = require('visionmedia-debug')('element-selector')
 
-var Emitter = require('emitter')
-var classes = require('classes')
-var matchesSelector = require('matches-selector')
+var Emitter = require('component-emitter')
+var classes = require('component-classes')
+var matchesSelector = require('component-matches-selector')
 var DEFAULT_SELECTOR = 'body *'
 var DEFAULT_INVALID_SELECTOR = ''
 var DEFAULT_HIGHLIGHTED_CLASS = 'highlighted'
